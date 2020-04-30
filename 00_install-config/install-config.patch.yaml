@@ -4,5 +4,5 @@ metadata:
   name: cluster
 platform:
   gcp:
-    projectID: openshift-gce-devel
-    region: europe-west3
+    projectID: kni-edge
+    region: europe-west1

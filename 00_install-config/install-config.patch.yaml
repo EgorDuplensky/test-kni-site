@@ -3,6 +3,14 @@ kind: InstallConfig
 baseDomain: kni-edge.cloud
 metadata:
   name: cluster
+compute:
+- hyperthreading: Enabled
+  name: worker
+  replicas: 2
+controlPlane:
+  hyperthreading: Enabled
+  name: master
+  replicas: 2
 platform:
   gcp:
     projectID: kni-edge

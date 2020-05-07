@@ -1,2 +1,3 @@
 bases:
+- ../../../base/01_cluster-mods
 - ../../../profiles/production.gcp/01_cluster-mods
